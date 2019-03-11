@@ -27,7 +27,7 @@ Scenario('looking for Chelsea at the first position ?', I => {
   checkforchel.wait(5);
   checkforchel.moveCursorTo('#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
   checkforchel.wait(5);
-  checkforchel.see('Chelsea','');
+  checkforchel.see('Chelsea','abc');
   checkforchel.wait(5);
 });
 
