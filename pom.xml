@@ -7,6 +7,9 @@
     <name>autotest</name>
     <description>autotestdemo</description>
     <packaging>jar</packaging>
+	
+	<name>autotest</name>
+	<url>http://maven.apache.org</url>
 
     <developers>
         <developer>
