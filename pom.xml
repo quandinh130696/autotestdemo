@@ -4,12 +4,11 @@
     <groupId>skysports.com</groupId>
     <artifactId>autotest</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>autotest</name>
     <description>autotestdemo</description>
     <packaging>jar</packaging>
 	
-	<name>autotest</name>
-	<url>http://maven.apache.org</url>
+<name>autotest</name>
+<url>http://maven.apache.org</url>
 
     <developers>
         <developer>
