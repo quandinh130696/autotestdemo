@@ -6,7 +6,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <name>autotestdemo</name>
     <description>autotestdemo</description>
-    <packaging>pom</packaging>
+    <packaging>autotest</packaging>
 
     <developers>
         <developer>
