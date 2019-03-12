@@ -2,6 +2,7 @@ exports.config = {
   tests: './*_test.js',
   output: './output',
   helpers: {
+   
 
     Puppeteer: {
       url: 'https://www.skysports.com/',
@@ -20,21 +21,18 @@ exports.config = {
     "allure": {
       "enabled": true
     },
-    "mocha": {
-      "reporterOptions": {
-        "reportDir": "output"
-      }
-    },
+   
     "helpers": {
       "Mochawesome": {
           "uniqueScreenshotNames": "true"
       },
+      "mocha": {"uniqueScreenshotNames": "true",
+        "reporterOptions": {
+          "mochaFile": "output/result.xml"
+        }
+      },
     
     },
-    "stepByStepReport": {
-      "enabled": true,
-     
-    }
 },
 
   include: {
