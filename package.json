@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "codeceptjs run --plugins allure"
+    "start": "codeceptjs run --plugins allure",
+    "allure":"allure serve output"
   },
   "author": "",
   "license": "ISC",
