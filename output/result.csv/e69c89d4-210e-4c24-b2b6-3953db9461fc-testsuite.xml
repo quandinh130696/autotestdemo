@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1552373931250' stop='1552373993184'>
+    <name>IDentify App Sanity Test:</name>
+    <title>IDentify App Sanity Test:</title>
+    <test-cases>
+        <test-case start='1552373936485' status='passed' stop='1552373961715'>
+            <name>Go to the website</name>
+            <title>Go to the website</title>
+            <labels>
+                <label name='tag' value='null'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1552373936493' status='passed' stop='1552373961715'>
+                    <name>Test: I </name>
+                    <title>Test: I </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1552373936493' status='passed' stop='1552373961715'>
+                            <name>I am on page "https://www.skysports.com/"</name>
+                            <title>I am on page "https://www.skysports.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552373961720' status='passed' stop='1552373991259'>
+            <name>Going to Premier League</name>
+            <title>Going to Premier League</title>
+            <labels>
+                <label name='tag' value='null'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1552373961725' status='passed' stop='1552373991259'>
+                    <name>Test: I </name>
+                    <title>Test: I </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1552373961725' status='passed' stop='1552373962519'>
+                            <name>I click "//*[@id="site-nav-desktop-sports-more"]"</name>
+                            <title>I click "//*[@id="site-nav-desktop-sports-more"]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1552373962519' status='passed' stop='1552373962879'>
+                            <name>I click "//*[@id="site-nav-desktop-sports-more-nav"]/div/ul/li[1]/a"</name>
+                            <title>I click "//*[@id="site-nav-desktop-sports-more-nav"]/div/ul/li[1]/a"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1552373962879' status='passed' stop='1552373971602'>
+                            <name>I am on page "https://www.skysports.com/football"</name>
+                            <title>I am on page "https://www.skysports.com/football"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1552373971602' status='passed' stop='1552373972096'>
+                            <name>I click "//*[@id="page-nav"]/ul/li[3]/a"</name>
+                            <title>I click "//*[@id="page-nav"]/ul/li[3]/a"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1552373972096' status='passed' stop='1552373981348'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1552373981348' status='passed' stop='1552373981807'>
+                            <name>I click "//*[@id="widgetLite-2"]/div[1]/div[3]/div[1]/ul/li[1]/ul/li[1]"</name>
+                            <title>I click "//*[@id="widgetLite-2"]/div[1]/div[3]/div[1]/ul/li[1]/ul/li[1]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1552373981807' status='passed' stop='1552373991259'>
+                            <name>I wait for navigation </name>
+                            <title>I wait for navigation </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1552373991260' status='failed' stop='1552373991667'>
+            <name>looking for Chelsea at the first position ?</name>
+            <title>looking for Chelsea at the first position ?</title>
+            <labels>
+                <label name='tag' value='null'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1552373991261' status='failed' stop='1552373991667'>
+                    <name>Test: I </name>
+                    <title>Test: I </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1552373991261' status='passed' stop='1552373991392'>
+                            <name>I move cursor to "#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)"</name>
+                            <title>I move cursor to "#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1552373991392' status='failed' stop='1552373991666'>
+                            <name>I see "Chelsea", "#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)"</name>
+                            <title>I see "Chelsea", "#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='c377bed2-c081-45f6-b5b9-0c17a780bcfa-attachment.png' type='image/png' size='483579'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

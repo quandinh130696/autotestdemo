@@ -1,6 +1,6 @@
 exports.config = {
   tests: './*_test.js',
-  output: './output',
+  output: './output/result.csv',
   helpers: {
    
 
@@ -20,18 +20,6 @@ exports.config = {
   plugins: {
     "allure": {
       "enabled": true
-    },
-   
-    "helpers": {
-      "Mochawesome": {
-          "uniqueScreenshotNames": "true"
-      },
-      "mocha": {"uniqueScreenshotNames": "true",
-        "reporterOptions": {
-          "mochaFile": "output/result.xml"
-        }
-      },
-    
     },
 },
 
