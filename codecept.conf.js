@@ -2,9 +2,9 @@ exports.config = {
   tests: './*_test.js',
   output: './output',
   helpers: {
+
     Puppeteer: {
       url: 'https://www.skysports.com/',
-      // waitForNavigation: 'networkidle2',
       chrome: {
         args: ['--no-sandbox']
       },
@@ -13,27 +13,22 @@ exports.config = {
       restart: false,
       keepBrowserState: true,
       keepCookies: true
-    }
+    },
+    Mochawesome: {
+      uniqueScreenshotNames: true
+    },
   },
 
-  plugins: {
-    "allure": {},
-    "mocha": {
-      "reporterOptions": {
-        "reportDir": "output"
-      }
-    },
-    "helpers": {
-      "Mochawesome": {
-          "uniqueScreenshotNames": "true"
-      }
-    },
-  },
 
   include: {
     I: './steps_file.js'
   },
+  mocha: {
+    reporterOptions: {
+      reportDir: './output',
+    },
+
+  },
   bootstrap: null,
-  mocha: {},
-  name: 'autotest'
+  name: 'demo'
 }
