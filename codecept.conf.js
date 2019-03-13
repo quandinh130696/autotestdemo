@@ -1,9 +1,7 @@
 exports.config = {
   tests: './*_test.js',
-  output: './output/result.csv',
+  output: './output',
   helpers: {
-   
-
     Puppeteer: {
       url: 'https://www.skysports.com/',
       // waitForNavigation: 'networkidle2',
@@ -17,11 +15,20 @@ exports.config = {
       keepCookies: true
     }
   },
+
   plugins: {
-    "allure": {
-      "enabled": true
+    "allure": {},
+    "mocha": {
+      "reporterOptions": {
+        "reportDir": "output"
+      }
     },
-},
+    "helpers": {
+      "Mochawesome": {
+          "uniqueScreenshotNames": "true"
+      }
+    },
+  },
 
   include: {
     I: './steps_file.js'
