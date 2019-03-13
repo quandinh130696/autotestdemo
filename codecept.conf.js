@@ -23,12 +23,12 @@ exports.config = {
   include: {
     I: './steps_file.js'
   },
-  mocha: {
-    reporterOptions: {
-      reportDir: './output',
-    },
-
-  },
+  
+  "mocha": {
+    "reporterOptions": {
+      "mochaFile": "./output/result.xml"
+  }
+},
   bootstrap: null,
   name: 'demo'
 }

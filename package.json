@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "codeceptjs run --reporter mochawesome && exit 0"
+    "start": "codeceptjs run --reporter mocha-junit-reporter"
+
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
     "codeceptjs": "^2.0.7",
-    "puppeteer": "^1.13.0",
-    "mochawesome": "^3.1.1"
+    "mocha-junit-reporter": "^1.18.0",
+    "mocha-multi": "^1.0.1",
+    "mochawesome": "^3.1.1",
+    "puppeteer": "^1.13.0"
   }
 }
