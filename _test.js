@@ -15,14 +15,15 @@ Scenario('Going to Premier League', I => {
  
   I.click('//*[@id="widgetLite-2"]/div[1]/div[3]/div[1]/ul/li[1]/ul/li[1]');
   I.waitForNavigation();
- 
+  
+  I.see('QuynhTrang');
 
 });
 
 Scenario('looking for Man City at the first position ?', I => {
   I.moveCursorTo('#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
 
-  I.see('Man City','#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
+  I.see('Chelsea','#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
   
 });
 
