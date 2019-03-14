@@ -16,7 +16,6 @@ Scenario('Going to Premier League', I => {
   I.click('//*[@id="widgetLite-2"]/div[1]/div[3]/div[1]/ul/li[1]/ul/li[1]');
   I.waitForNavigation();
   
-  I.see('QuynhTrang');
 
 });
 
