@@ -1,7 +1,5 @@
-const puppeteer = require('puppeteer');
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 Feature('IDentify App Sanity Test');
-// const addContext = require('mochawesome/addContext');
+
 Scenario('Go to the website', I => {
   I.amOnPage('https://www.skysports.com/');
 });
@@ -21,39 +19,12 @@ Scenario('Going to Premier League', I => {
 
 });
 
-Scenario('looking for Chelsea at the first position ?', I => {
+Scenario('looking for Man City at the first position ?', I => {
   I.moveCursorTo('#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
 
-  I.see('Chelsea','#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
+  I.see('Man City','#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
   
 });
 
 
-// var nodemailer = require('nodemailer');
 
-// var transporter = nodemailer.createTransport({
-//   service: 'SMTP',
-//   auth: {
-//     user: 'quannd6754@seta-international.vn',
-//     pass: 'Plan@2019'
-//   }
-// });
-
-// var mailOptions = {
-//   from: 'quannd6754@seta-international.vn',
-//   to: 'quandinhdinh130696@gmail.com',
-//   subject: 'Sending Email using Node.js',
-//   text: 'That was easy!'
-// };
-
-// transporter.sendMail(mailOptions, function(error, info){
-//   if (error) {
-//     console.log(error);
-//   } else {
-//     console.log('Email sent: ' + info.response);
-//   }
-// });
-
-
-
-// console.log(Scenario('3',I));

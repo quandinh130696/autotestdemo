@@ -18,7 +18,10 @@ exports.config = {
       uniqueScreenshotNames: true
     },
   },
-
+  "plugins": {
+    "allure": {
+    }
+},
 
   include: {
     I: './steps_file.js'
