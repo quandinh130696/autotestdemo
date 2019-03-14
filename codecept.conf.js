@@ -8,7 +8,7 @@ exports.config = {
       chrome: {
         args: ['--no-sandbox']
       },
-      show: !process.env.ENVIRONMENT,
+      show: process.env.ENVIRONMENT,
       windowSize: '1200x1000',
       restart: false,
       keepBrowserState: true,
