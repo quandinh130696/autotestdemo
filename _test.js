@@ -22,7 +22,7 @@ Scenario('Going to Premier League', I => {
 Scenario('looking for Man City at the first position ?', I => {
   I.moveCursorTo('#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
 
-  I.see('Man City','#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
+  I.see('Chelsea','#widgetLite-6 > div.standing-table.standing-table--promo > table > tbody > tr:nth-child(1)');
   
 });
 
